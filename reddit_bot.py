@@ -16,11 +16,6 @@ r = praw.Reddit(username=__username,
 def get_jokes():
     for post in r.subreddit('dadjokes').hot(limit=100):
         sql_handler.insert_joke(post_id=post.id, title=post.title, body=post.selftext, author=post.author)
-        pass
-    pass
 
 
 get_jokes()
-
-while True:
-    pass

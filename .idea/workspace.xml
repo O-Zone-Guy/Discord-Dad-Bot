@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da96e442-688e-4d9d-9a26-23ca69a8f711" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/reddit_bot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/sql_handler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reddit_bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/reddit_bot.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,12 +26,16 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="db" value="1" />
-          <entry key="py" value="4" />
+          <entry key="githubwork" value="1" />
+          <entry key="gitignore" value="1" />
+          <entry key="pub" value="1" />
+          <entry key="py" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="4" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Python" value="5" />
           <entry key="SQL" value="1" />
         </counts>
       </usages-collector>
@@ -40,9 +43,9 @@
         <counts>
           <entry key="Python Console" value="154" />
           <entry key="dummy" value="13" />
-          <entry key="py" value="3191" />
+          <entry key="py" value="3204" />
           <entry key="sql-handler" value="186" />
-          <entry key="sql_handler" value="311" />
+          <entry key="sql_handler" value="314" />
           <entry key="test" value="76" />
           <entry key="txt" value="46" />
         </counts>
@@ -50,7 +53,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="59" />
-          <entry key="Python" value="3918" />
+          <entry key="Python" value="3934" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -59,13 +62,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bot-test.py">
+        <entry file="file://$PROJECT_DIR$/discrod-bot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="571">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="324">
+              <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
-                <marker date="1539901469517" expanded="true" signature="560:561" ph="..." />
               </folding>
             </state>
           </provider>
@@ -74,21 +76,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/reddit_bot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+            <state relative-caret-position="396">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
-                <marker date="1540158370343" expanded="true" signature="397:598" ph="..." />
+                <marker date="1540163204493" expanded="true" signature="397:576" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -96,8 +89,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sql_handler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+            <state relative-caret-position="702">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <marker date="1540158347935" expanded="true" signature="566:575" ph="..." />
                 <marker date="1540158347935" expanded="true" signature="1054:1064" ph="..." />
@@ -124,8 +117,8 @@
       <list>
         <option value="$PROJECT_DIR$/sql-handler.py" />
         <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/bot-test.py" />
         <option value="$PROJECT_DIR$/sql_handler.py" />
+        <option value="$PROJECT_DIR$/bot-test.py" />
         <option value="$PROJECT_DIR$/reddit_bot.py" />
       </list>
     </option>
@@ -359,7 +352,7 @@
     <frame x="-1" y="0" width="1922" height="1081" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0353562" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.124010555" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -372,7 +365,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32911393" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32911393" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="10" visible="true" weight="0.54219407" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.54219407" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -415,28 +408,8 @@
     <entry file="file://$PROJECT_DIR$/mydb.db">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/bot-test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <marker date="1539901469517" expanded="true" signature="560:561" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql_handler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
-          <folding>
-            <marker date="1540158347935" expanded="true" signature="566:575" ph="..." />
-            <marker date="1540158347935" expanded="true" signature="1054:1064" ph="..." />
-            <marker date="1540158347935" expanded="true" signature="1088:1095" ph="..." />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -445,13 +418,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bot-test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/githubwork">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/githubwork.pub">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/discrod-bot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql_handler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <marker date="1540158347935" expanded="true" signature="566:575" ph="..." />
+            <marker date="1540158347935" expanded="true" signature="1054:1064" ph="..." />
+            <marker date="1540158347935" expanded="true" signature="1088:1095" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/reddit_bot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+        <state relative-caret-position="396">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
-            <marker date="1540158370343" expanded="true" signature="397:598" ph="..." />
+            <marker date="1540163204493" expanded="true" signature="397:576" ph="..." />
           </folding>
         </state>
       </provider>
