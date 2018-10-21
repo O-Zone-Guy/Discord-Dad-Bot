@@ -35,7 +35,7 @@ def get_random_joke():
     joke = _cursor.fetchone()
     if joke is None:
         return ['', '', '']
-    return [joke[2], joke[3], joke[4]]
+    return [joke[2], joke[3], joke[4], joke[1]]
     pass
 
 # def delete_all_row():
