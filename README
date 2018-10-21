@@ -1,1 +1,7 @@
-Hello, this is a test
+The purpose of this project is to create a bot that acts like a dad! (Jokes side, not as a parent)
+The reddit_bot retrieves dad jokes from r/dadjokes and inserts it into a database using the sql_handler module.
+The data in the database is retrieved by  the discord-bot whenever someone requests a joke.
+
+Dad-bot, the discord-bot, also has a chance to reply to people who say 'I am *' by saying 'Hello *, I am dad bot'.
+
+This is a discord bot aided by a reddit bot
