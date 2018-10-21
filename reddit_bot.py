@@ -1,15 +1,11 @@
 import praw
 import sql_handler
+import config
 
-__username = 'dad-sweeper-bot'
-__pass = 'e8EV7EgcRe2Xd5x'
-__client_id = 'wk6O38PhWWdj3g'
-__client_secret = 'rMulU-xNj6Ue9Ah7FSxlgNMYvb8'
-
-r = praw.Reddit(username=__username,
-                password=__pass,
-                client_id=__client_id,
-                client_secret=__client_secret,
+r = praw.Reddit(username=config.reddit_username,
+                password=config.reddit_pass,
+                client_id=config.reddit_client_id,
+                client_secret=config.reddit_client_secret,
                 user_agent="Dad Jokes sweeper V0.1")
 
 

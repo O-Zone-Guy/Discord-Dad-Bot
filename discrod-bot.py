@@ -3,6 +3,7 @@ import sql_handler
 import random
 import time
 import datetime
+import config
 
 client = discord.Client()
 
@@ -61,4 +62,4 @@ async def on_message(message):
         await client.logout()
 
 
-client.run('NTAxOTQwMzgyMDU4MjgzMDE4.Dqgs3g._5fQc16mzPawl6aWPBVLeBgAQ1o')
+client.run(config.discord_code)

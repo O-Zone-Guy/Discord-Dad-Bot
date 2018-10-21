@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da96e442-688e-4d9d-9a26-23ca69a8f711" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discrod-bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/discrod-bot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reddit_bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/reddit_bot.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,15 +29,16 @@
         <counts>
           <entry key="db" value="1" />
           <entry key="githubwork" value="1" />
-          <entry key="gitignore" value="1" />
+          <entry key="gitignore" value="3" />
           <entry key="pub" value="1" />
-          <entry key="py" value="5" />
+          <entry key="py" value="10" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="5" />
+          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="Python" value="10" />
           <entry key="SQL" value="1" />
         </counts>
       </usages-collector>
@@ -43,17 +46,18 @@
         <counts>
           <entry key="Python Console" value="154" />
           <entry key="dummy" value="13" />
-          <entry key="py" value="3204" />
+          <entry key="gitignore" value="18" />
+          <entry key="py" value="3709" />
           <entry key="sql-handler" value="186" />
           <entry key="sql_handler" value="314" />
           <entry key="test" value="76" />
-          <entry key="txt" value="46" />
+          <entry key="txt" value="92" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="59" />
-          <entry key="Python" value="3934" />
+          <entry key="PLAIN_TEXT" value="123" />
+          <entry key="Python" value="4439" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -64,11 +68,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/discrod-bot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+            <state relative-caret-position="990">
+              <caret line="64" column="30" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
+                <marker date="1540164624360" expanded="true" signature="602:697" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -76,12 +90,21 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/reddit_bot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="72">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
-                <marker date="1540163204493" expanded="true" signature="397:576" ph="..." />
+                <marker date="1540164721477" expanded="true" signature="321:499" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -89,12 +112,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sql_handler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="108">
+              <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
               <folding>
-                <marker date="1540158347935" expanded="true" signature="566:575" ph="..." />
-                <marker date="1540158347935" expanded="true" signature="1054:1064" ph="..." />
-                <marker date="1540158347935" expanded="true" signature="1088:1095" ph="..." />
+                <marker date="1540164107474" expanded="true" signature="566:575" ph="..." />
+                <marker date="1540164107474" expanded="true" signature="1063:1073" ph="..." />
+                <marker date="1540164107474" expanded="true" signature="1097:1104" ph="..." />
               </folding>
             </state>
           </provider>
@@ -117,8 +140,12 @@
       <list>
         <option value="$PROJECT_DIR$/sql-handler.py" />
         <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/sql_handler.py" />
         <option value="$PROJECT_DIR$/bot-test.py" />
+        <option value="$PROJECT_DIR$/sql_handler.py" />
+        <option value="$PROJECT_DIR$/log.txt" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/discrod-bot.py" />
+        <option value="$PROJECT_DIR$/config.py" />
         <option value="$PROJECT_DIR$/reddit_bot.py" />
       </list>
     </option>
@@ -170,7 +197,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.sql_handler">
+  <component name="RunManager" selected="Python.discrod-bot">
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python">
       <module name="DIscord-Dad-Bot" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -213,7 +240,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="bot-test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="discrod-bot" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DIscord-Dad-Bot" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -225,9 +252,9 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bot-test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/discrod-bot.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -312,18 +339,18 @@
     <list>
       <item itemvalue="Python.Unnamed" />
       <item itemvalue="Python.sql-handler" />
-      <item itemvalue="Python.bot-test" />
       <item itemvalue="Python.test" />
       <item itemvalue="Python.reddit_bot" />
       <item itemvalue="Python.sql_handler" />
+      <item itemvalue="Python.discrod-bot" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.discrod-bot" />
         <item itemvalue="Python.sql_handler" />
         <item itemvalue="Python.reddit_bot" />
         <item itemvalue="Python.sql_handler" />
         <item itemvalue="Python.sql-handler" />
-        <item itemvalue="Python.sql_handler" />
       </list>
     </recent_temporary>
   </component>
@@ -345,14 +372,30 @@
       <option name="project" value="LOCAL" />
       <updated>1539901370111</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="cleaned removed redundant lines">
+      <created>1540163262843</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1540163262844</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1922" height="1081" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.124010555" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1403694" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -361,7 +404,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.46413502" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32911393" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32911393" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32911393" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
@@ -402,13 +445,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated .gitignore file to be more reasonable" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated .gitignore file to be more reasonable" />
+    <MESSAGE value="cleaned removed redundant lines" />
+    <option name="LAST_COMMIT_MESSAGE" value="cleaned removed redundant lines" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/mydb.db">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
@@ -438,35 +479,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/discrod-bot.py">
+    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/discord/http.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="127">
+          <caret line="199" selection-start-line="199" selection-end-line="199" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/discord/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="306" selection-start-line="306" selection-end-line="306" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sql_handler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="108">
+          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
           <folding>
-            <marker date="1540158347935" expanded="true" signature="566:575" ph="..." />
-            <marker date="1540158347935" expanded="true" signature="1054:1064" ph="..." />
-            <marker date="1540158347935" expanded="true" signature="1088:1095" ph="..." />
+            <marker date="1540164107474" expanded="true" signature="566:575" ph="..." />
+            <marker date="1540164107474" expanded="true" signature="1063:1073" ph="..." />
+            <marker date="1540164107474" expanded="true" signature="1097:1104" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="49" selection-start-column="49" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/discrod-bot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="64" column="30" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1540164624360" expanded="true" signature="602:697" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/reddit_bot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="72">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
-            <marker date="1540163204493" expanded="true" signature="397:576" ph="..." />
+            <marker date="1540164721477" expanded="true" signature="321:499" ph="..." />
           </folding>
         </state>
       </provider>
