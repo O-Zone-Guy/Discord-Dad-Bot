@@ -1,10 +1,10 @@
 import discord
 import sql_handler
 import random
+import time
+import datetime
 
 client = discord.Client()
-
-print(sql_handler.db)
 
 
 def contains_im(text):
@@ -26,6 +26,11 @@ def contains_im(text):
     return [False, '']
 
 
+def log_actions(text):
+    f = open("log.txt", 'a')
+    f.write(str(datetime.datetime.now()) + ": " + text + "\n")
+
+
 @client.event
 async def on_ready():
     print('We have logged in as {0.user}'.format(client))
@@ -40,6 +45,15 @@ async def on_message(message):
     if contains_im(message.content)[0] and random.random() < 0.2:
         await client.send_message(message.channel, 'Hello ' + contains_im(message.content)[1] +
                                   ". I'm Dad Bot! {0.author.mention}".format(message))
+        pass
+
+    if message.content.startswith('!say joke'):
+        joke = sql_handler.get_random_joke()
+        await client.send_message(message.channel, joke[0])
+        time.sleep(5)
+        await client.send_message(message.channel, joke[1])
+        await client.send_message(message.channel, "By: -" + joke[2])
+        log_actions("Said joke, ID: " + str(joke[3]))
         pass
 
     if message.content.startswith("!logout") and message.author.name == "OzoneGuy":
