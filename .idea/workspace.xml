@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da96e442-688e-4d9d-9a26-23ca69a8f711" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/bot-test.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot-test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reddit_bot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/sql_handler.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,22 +16,23 @@
     <session id="-658284200">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="db" value="1" />
-          <entry key="py" value="3" />
+          <entry key="py" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="3" />
+          <entry key="Python" value="4" />
           <entry key="SQL" value="1" />
         </counts>
       </usages-collector>
@@ -37,15 +40,17 @@
         <counts>
           <entry key="Python Console" value="154" />
           <entry key="dummy" value="13" />
-          <entry key="py" value="1599" />
-          <entry key="sql-handler" value="114" />
+          <entry key="py" value="3191" />
+          <entry key="sql-handler" value="186" />
+          <entry key="sql_handler" value="311" />
           <entry key="test" value="76" />
+          <entry key="txt" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="13" />
-          <entry key="Python" value="1943" />
+          <entry key="PLAIN_TEXT" value="59" />
+          <entry key="Python" value="3918" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -53,15 +58,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bot-test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+            <state relative-caret-position="571">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
-                <element signature="e#112#543#0" />
-                <marker date="1539900741501" expanded="true" signature="560:561" ph="..." />
+                <marker date="1539901469517" expanded="true" signature="560:561" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/reddit_bot.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="107">
+              <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+                <marker date="1540158370343" expanded="true" signature="397:598" ph="..." />
               </folding>
             </state>
           </provider>
@@ -79,8 +96,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sql_handler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+            <state relative-caret-position="151">
+              <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+              <folding>
+                <marker date="1540158347935" expanded="true" signature="566:575" ph="..." />
+                <marker date="1540158347935" expanded="true" signature="1054:1064" ph="..." />
+                <marker date="1540158347935" expanded="true" signature="1088:1095" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -101,16 +123,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/sql-handler.py" />
-        <option value="$PROJECT_DIR$/sql_handler.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/bot-test.py" />
+        <option value="$PROJECT_DIR$/sql_handler.py" />
+        <option value="$PROJECT_DIR$/reddit_bot.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="381" />
-    <option name="width" value="1914" />
-    <option name="height" value="1076" />
+    <option name="x" value="-1" />
+    <option name="width" value="1922" />
+    <option name="height" value="1081" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -154,7 +177,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Unnamed">
+  <component name="RunManager" selected="Python.sql_handler">
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python">
       <module name="DIscord-Dad-Bot" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -201,12 +224,33 @@
       <module name="DIscord-Dad-Bot" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="/usr/bin/python3.6" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bot-test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="reddit_bot" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DIscord-Dad-Bot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="/usr/bin/python3.6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/reddit_bot.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -233,10 +277,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="sql_handler" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DIscord-Dad-Bot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="/usr/bin/python3.6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sql_handler.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DIscord-Dad-Bot" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="/usr/bin/python3.6" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -256,14 +321,16 @@
       <item itemvalue="Python.sql-handler" />
       <item itemvalue="Python.bot-test" />
       <item itemvalue="Python.test" />
+      <item itemvalue="Python.reddit_bot" />
+      <item itemvalue="Python.sql_handler" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.bot-test" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.test" />
+        <item itemvalue="Python.sql_handler" />
+        <item itemvalue="Python.reddit_bot" />
+        <item itemvalue="Python.sql_handler" />
         <item itemvalue="Python.sql-handler" />
-        <item itemvalue="Python.sql-handler" />
+        <item itemvalue="Python.sql_handler" />
       </list>
     </recent_temporary>
   </component>
@@ -278,13 +345,21 @@
       <option name="presentableId" value="Default" />
       <updated>1539795957821</updated>
     </task>
+    <task id="LOCAL-00001" summary="updated .gitignore file to be more reasonable">
+      <created>1539901370111</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1539901370111</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1922" height="1081" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18100263" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0353562" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -297,23 +372,69 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32911393" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32911393" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.5021097" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="10" visible="true" weight="0.54219407" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updated .gitignore file to be more reasonable" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated .gitignore file to be more reasonable" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/mydb.db">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/bot-test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1539901469517" expanded="true" signature="560:561" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sql_handler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        <state relative-caret-position="151">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+          <folding>
+            <marker date="1540158347935" expanded="true" signature="566:575" ph="..." />
+            <marker date="1540158347935" expanded="true" signature="1054:1064" ph="..." />
+            <marker date="1540158347935" expanded="true" signature="1088:1095" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -324,14 +445,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bot-test.py">
+    <entry file="file://$PROJECT_DIR$/reddit_bot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+        <state relative-caret-position="107">
+          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <element signature="e#112#543#0" />
-            <marker date="1539900741501" expanded="true" signature="560:561" ph="..." />
+            <element signature="e#0#11#0" expanded="true" />
+            <marker date="1540158370343" expanded="true" signature="397:598" ph="..." />
           </folding>
         </state>
       </provider>
